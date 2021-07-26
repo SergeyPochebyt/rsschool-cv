@@ -1,1 +1,1 @@
-https://SergeyPochebyt.github.io/rsschool-cv/index.html
+https://SergeyPochebyt.github.io/rsschool-cv/index
