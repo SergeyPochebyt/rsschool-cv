@@ -14,3 +14,6 @@
 
 ### Education:
 ##### Faculty of Radio Physics and Computer Technology of the Belarusian State University
+
+### English:
+##### Intermediate
