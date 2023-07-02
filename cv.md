@@ -11,3 +11,6 @@
 ##### C#, html, css.
 
 ### Profile:
+
+### Education:
+##### Faculty of Radio Physics and Computer Technology of the Belarusian State University
