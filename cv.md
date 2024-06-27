@@ -45,4 +45,4 @@
 
 ### English:
 
-##### Intermediate
+##### Intermediate B2
