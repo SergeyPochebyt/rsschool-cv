@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework CV HTML, CSS & Git Basics</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,900&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <div class="container">
+        <div class="wrapper">
+          <div class="title">
+            <h1>Sergey Pochebyt</h1>
+            <h4>Contact:</h4>
+            <h5>tel. + 375(29)358-49-77</h5>
+            <h5>e-mail: sergeymailmobile@gmail.com</h5>
+          </div>
+          <img src="img/foto.jpg" alt="foto" width="280" class="desktop" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <ul>
+          <li>
+            <h4>Objective:</h4>
+            <p>IT career development, web-design.</p>
+          </li>
+
+          <li>
+            <h4>Skills:</h4>
+            <p>C#, JS, html, css.</p>
+          </li>
+          <li>
+            <h4>Profile:</h4>
+            <pre>
+          <code>
+      public static string GetPositiveHex(this int number)
+      {
+      if (number &lt; 0)
+      {
+          throw new ArgumentException($"Incorrect {nameof(number)}");
+      }
+
+      char[] hexChar = new[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
+      var remainder = number;
+      string resultString = string.Empty;
+      const int numericSystem = 16;
+      while (remainder > 0)
+      {
+          var result = remainder % numericSystem;
+          resultString = $"{hexChar[result]}{resultString}";
+          remainder /= numericSystem;
+      }
+
+      return resultString;
+      }
+          </code>
+                </pre>
+          </li>
+          <li>
+            <h4>Education:</h4>
+            <p>
+              Faculty of Radio Physics and Computer Technology of the Belarusian
+              State University
+            </p>
+          </li>
+          <li>
+            <h4>English:</h4>
+            <p>Intermediate B2</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="container">
+        <div class="credits">
+          <h3>
+            <a href="https://github.com/SergeyPochebyt" style="color: white">
+              Github
+            </a>
+          </h3>
+          <h3>2024</h3>
+          <a href="https://rs.school/courses/javascript-preschool-ru">
+            <img
+              src="img/rs_school_js.svg"
+              alt="https://rs.school/js/"
+              width="80"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
